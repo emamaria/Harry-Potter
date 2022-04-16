@@ -1,4 +1,14 @@
 
 h1{
     font-size: 60px;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+
+    h1{
+        font-size: 40px;
+        font-style: italic;
+    }
+    
 }

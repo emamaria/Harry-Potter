@@ -1,14 +1,12 @@
-<div class="characterDetail-container">
-  <div class="character">
-    <h2>{{ oneCharacter.name | titlecase }}</h2>
-    <img class="img" [src]="oneCharacter.image" [alt]="oneCharacter.name" />
-    <p>Species: {{ oneCharacter.species | titlecase }}</p>
-    <p>Ancestry: {{ oneCharacter.ancestry | titlecase }}</p>
-    <p>Hogwarts Student: {{ oneCharacter.hogwartsStudent }}</p>
-    <p>Hogwarts Staff: {{ oneCharacter.hogwartsStaff }}</p>
-    <p>Actor: {{ oneCharacter.actor }}</p>
-    <button>
-      <a routerLink="/characters" href="#">Go Back</a>
-    </button>
-  </div>
+<div class="character">
+  <h2>{{ oneCharacter.name | titlecase }}</h2>
+  <img class="img" [src]="oneCharacter.image" [alt]="oneCharacter.name" />
+  <p>Species: {{ oneCharacter.species | titlecase }}</p>
+  <p>Ancestry: {{ oneCharacter.ancestry | titlecase }}</p>
+  <p>Hogwarts Student: {{ oneCharacter.hogwartsStudent }}</p>
+  <p>Hogwarts Staff: {{ oneCharacter.hogwartsStaff }}</p>
+  <p>Actor: {{ oneCharacter.actor }}</p>
+  <button>
+    <a routerLink="/characters" href="#">Go Back</a>
+  </button>
 </div>
