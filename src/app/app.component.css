@@ -27,5 +27,11 @@
     @media (max-width: 600px){
         .navigation {
            justify-content: space-evenly;
+           
         }  
+
+        .navigation a{
+            font-size: 17px;
+            
+         } 
     }
