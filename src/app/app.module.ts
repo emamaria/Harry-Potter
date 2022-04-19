@@ -23,7 +23,7 @@ import { MoviesComponent } from './movies/movies.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

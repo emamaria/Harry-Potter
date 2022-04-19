@@ -2,6 +2,7 @@
 h1{
     font-size: 60px;
     font-style: italic;
+  
 }
 
 @media (max-width: 600px) {
@@ -9,6 +10,66 @@ h1{
     h1{
         font-size: 40px;
         font-style: italic;
+        text-align: center;
     }
+
+    /* .container-content2{
+       width: 200px;
+    }
+
+    .container img{
+        width: 200px;
+       
+     }
+      */
+
+   
     
 }
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+    margin:40px;
+  
+    
+    
+}
+
+
+.container img{
+   width: 500px;
+  
+}
+
+.container-content{
+    display: flex;
+    flex-direction: column;
+   margin: 20px;
+}
+
+.container-content h2{
+    margin-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    }
+
+  .container-content2{
+      width: 500px;
+      height: 400px;
+      background-color: red;
+      margin: 40px;
+    
+     
+    
+  }
+
+  .container-content2 p{
+    margin: 60px;
+  }
