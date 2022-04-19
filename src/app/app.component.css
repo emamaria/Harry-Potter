@@ -22,3 +22,10 @@
     align-items: center;
     margin-top: 60px;
     }
+
+
+    @media (max-width: 600px){
+        .navigation {
+           justify-content: space-evenly;
+        }  
+    }
